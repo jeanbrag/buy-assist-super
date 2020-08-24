@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/deleteAll"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Sair"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+       />
+    <item android:id="@+id/limpar"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="Limpar lista"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="Sair"
+        app:showAsAction="never"
+        />
+
+</menu>
